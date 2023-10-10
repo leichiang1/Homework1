@@ -33,7 +33,7 @@ subset$ptv <- (subset$Votes_For / subset$Votes_Total) * 100
 
 #creates a new variable with percentage of votes that approved the bond.
 
-hist(subset$ptv, main='Distribution of Rates that Passed Bonds',
+hist(subset$ptv, main='Distribution of Rates of Passed Bonds',
 xlab='Percentages', ylab = 'Frequency', col='skyblue',xlim=c(40,100),ylim=c(0,700))
 
 # presents a histogram of the ptv variable
